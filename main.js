@@ -7,7 +7,7 @@ const dot = document.getElementById('cursor-dot');
 const ring = document.getElementById('cursor-ring');
 let mx = 0, my = 0, rx = 0, ry = 0;
 document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
-;(function cursorLoop(){
+; (function cursorLoop() {
   dot.style.left = mx + 'px';
   dot.style.top = my + 'px';
   rx += (mx - rx) * 0.12;
@@ -22,13 +22,13 @@ const spb = document.getElementById('spb');
 window.addEventListener('scroll', () => {
   const t = document.documentElement.scrollHeight - window.innerHeight;
   spb.style.width = (window.scrollY / t * 100) + '%';
-}, {passive:true});
+}, { passive: true });
 
 // ── Header ──────────────────────────────────
 const hdr = document.getElementById('hdr');
 window.addEventListener('scroll', () => {
   hdr.classList.toggle('solid', window.scrollY > 60);
-}, {passive:true});
+}, { passive: true });
 
 // ── Hamburger ───────────────────────────────
 const burger = document.getElementById('burger');
@@ -46,7 +46,7 @@ mnav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
 
 // ── Clip reveal (hero) ──────────────────────
 function initClips() {
-  const delays = { ey1:300, ht1:500, ht2:650, ht3:800, ht4:950 };
+  const delays = { ey1: 300, ht1: 500, ht2: 650, ht3: 800, ht4: 950 };
   Object.entries(delays).forEach(([id, ms]) => {
     const el = document.getElementById(id);
     if (el) setTimeout(() => el.classList.add('up'), ms);
@@ -57,7 +57,7 @@ window.addEventListener('load', initClips);
 // ── Intersection reveal ─────────────────────
 const io = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-}, {threshold: 0.1});
+}, { threshold: 0.1 });
 document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
 
 // ── Count-up ────────────────────────────────
@@ -80,7 +80,7 @@ const cio = new IntersectionObserver(entries => {
     });
     cio.unobserve(e.target);
   });
-}, {threshold: 0.4});
+}, { threshold: 0.4 });
 document.querySelectorAll('.stats-bar, .nums-grid').forEach(s => cio.observe(s));
 
 // ── Process step lights ─────────────────────
@@ -92,7 +92,7 @@ const procIO = new IntersectionObserver(entries => {
     });
     procIO.disconnect();
   });
-}, {threshold: 0.3});
+}, { threshold: 0.3 });
 const pg = document.getElementById('proc-grid');
 if (pg) procIO.observe(pg);
 
@@ -134,7 +134,7 @@ document.querySelectorAll('.faq-q').forEach(q => {
     if (!isOpen) item.classList.add('open');
   };
   q.addEventListener('click', handler);
-  q.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handler(); }});
+  q.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handler(); } });
 });
 
 // ── Contact form ────────────────────────────
@@ -157,4 +157,14 @@ ctForm.addEventListener('submit', e => {
   ctForm.style.display = 'none';
   ctSuccess.classList.add('show');
   setTimeout(() => window.open(`https://wa.me/51972777696?text=${encodeURIComponent(text)}`, '_blank'), 800);
+});
+
+// ── Project Modal ───────────────────────────
+document.querySelectorAll('.pj-card').forEach(card => {
+  card.style.cursor = 'pointer';
+  card.addEventListener('click', () => {
+    const modalId = card.getAttribute('data-modal-id');
+    const modal = new bootstrap.Modal(document.getElementById(`projectModal-${modalId}`));
+    modal.show();
+  });
 });
