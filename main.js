@@ -168,3 +168,21 @@ document.querySelectorAll('.pj-card').forEach(card => {
     modal.show();
   });
 });
+
+// ── Testimonial Carousels ───────────────────────────
+document.querySelectorAll('.btn').forEach(btn => btn.style.cursor = 'pointer');
+
+document.getElementById('tst-btn-1').addEventListener('click', () => {
+  const modal = new bootstrap.Modal(document.getElementById('testimonialModal1'));
+  modal.show();
+});
+
+document.getElementById('tst-btn-2').addEventListener('click', () => {
+  const modal = new bootstrap.Modal(document.getElementById('testimonialModal2'));
+  modal.show();
+});
+
+document.getElementById('tst-btn-3').addEventListener('click', () => {
+  const modal = new bootstrap.Modal(document.getElementById('testimonialModal3'));
+  modal.show();
+});

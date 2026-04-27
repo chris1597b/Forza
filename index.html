@@ -703,7 +703,6 @@
                 aria-label="Slide 6"></button>
               <button type="button" data-bs-target="#projectCarousel-4" data-bs-slide-to="6"
                 aria-label="Slide 7"></button>
-
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -734,9 +733,8 @@
                   <p>Foto Angular</p>
                 </div>
               </div>
-
               <div class="carousel-item">
-                <img src="src/img/mocupe/imagen3.png" class="d-block w-100" alt="Proyecto">
+                <img src="src/img/mocupe/imgen3.png" class="d-block w-100" alt="Proyecto">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Comedor Principal</h5>
                   <p>Renderizado Completo</p>
@@ -755,17 +753,17 @@
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel-4"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel-4"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel-4"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel-4"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
@@ -929,7 +927,7 @@
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel-6"
               data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel-6"
@@ -1082,10 +1080,10 @@
           <div class="tst-card">
             <div class="tst-meta fade-in">
               <div class="tst-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-              <div class="tst-name">Familia Millones</div>
+              <div class="tst-name">Familia Millones Davila</div>
               <div class="tst-proj">La Victoria, Chiclayo<br>Vivienda 4 Niveles</div>
             </div>
-            <div class="btn">
+            <div class="btn" id="tst-btn-1">
               →
             </div>
             <div class="tst-text fade-in d2">
@@ -1098,10 +1096,10 @@
           <div class="tst-card">
             <div class="tst-meta">
               <div class="tst-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-              <div class="tst-name">Cliente Satisfecho</div>
-              <div class="tst-proj">Urb. Casa Blanca, J.L.O.<br>Edificación 5 Niveles</div>
+              <div class="tst-name">Sra. Luz Zambrano</div>
+              <div class="tst-proj">Remodelacion Mocupe, Chiclayo <br>Sala Principal y Espacios</div>
             </div>
-            <div class="btn">
+            <div class="btn" id="tst-btn-2">
               →
             </div>
             <div class="tst-text">
@@ -1113,14 +1111,14 @@
           <div class="tst-card">
             <div class="tst-meta">
               <div class="tst-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
-              <div class="tst-name">Propietario del Salón</div>
-              <div class="tst-proj">Mocupe, Chiclayo<br>Remodelación Comercial</div>
+              <div class="tst-name">Familia Pejerrey Vertiz</div>
+              <div class="tst-proj">Úcupe, Chiclayo<br>Remodelación Vivienda Multifamiliar</div>
             </div>
-            <div class="btn">
+            <div class="btn" id="tst-btn-3">
               →
             </div>
             <div class="tst-text">
-              La remodelación de mi negocio quedó espectacular. El equipo estuvo pendiente de cada detalle, la
+              La remodelación de mi vivienda quedó espectacular. El equipo estuvo pendiente de cada detalle, la
               comunicación fue constante y el resultado superó todo lo que imaginé. El precio fue justo y la garantía
               del trabajo me dio total seguridad.
             </div>
@@ -1143,6 +1141,111 @@
       </div>
     </div>
   </section>
+
+  <!-- Testimonial Modals -->
+  <div class="modal fade" id="testimonialModal1" tabindex="-1" aria-labelledby="testimonialModalLabel1"
+    aria-hidden="true"  style="margin-top: 8rem;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="testimonialModalLabel1">Vivienda 4 Niveles - La Victoria</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="testimonialCarousel1" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="src/img/La Victoria/Clientes/IMG-20250830-WA0029.jpg" class="d-block w-100" alt="Vivienda 4 Niveles">
+              </div>
+              <div class="carousel-item">
+                <img src="src/img/La Victoria/Clientes/IMG-20250915-WA0054.jpg" class="d-block w-100" alt="Vivienda 4 Niveles">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel1"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel1"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="testimonialModal2" tabindex="-1" aria-labelledby="testimonialModalLabel2"
+    aria-hidden="true" style="margin-top: 8rem;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="testimonialModalLabel2">Remodelacion de Ambiente - Mocupe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="testimonialCarousel2" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="display: flex; justify-content: center; align-items: center;">
+                <img src="src/img/mocupe/cliente/CLIENTE 2.png" class="d-block w-50" alt="Edificación 5 Niveles" style="height: 30rem; object-fit: cover;">
+              </div>
+          
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="testimonialModal3" tabindex="-1" aria-labelledby="testimonialModalLabel3"
+    aria-hidden="true" style="margin-top: 8rem;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="testimonialModalLabel3">Vivienda Multifamiliar , Úcupe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="testimonialCarousel3" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="src/img/ucupe/cliente/CLIENTE 1.png" class="d-block w-100" alt="Remodelación Comercial" style="height: 35rem; object-fit: cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="src/img/ucupe/cliente/CLIENTE 1.1.png" class="d-block w-100" alt="Remodelación Comercial" style="height: 35rem; object-fit: cover;">
+              </div>
+              <div class="carousel-item">
+                <img src="src/img/ucupe/cliente/CLIENTE 1.2.jpeg" class="d-block w-100" alt="Remodelación Comercial" style="height: 35rem; object-fit: cover;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel3"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel3"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- ═══════ PRICING ═══════ -->
   <section id="presupuestos" class="sec">
