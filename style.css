@@ -529,7 +529,8 @@ h2.big {
   gap: 1.2rem;
   flex-wrap: wrap;
 }
-.btn-solid{
+
+.btn-solid {
   font-family: 'DM Mono', monospace;
   font-size: .62rem;
   letter-spacing: .18em;
@@ -540,13 +541,14 @@ h2.big {
   color: var(--bg);
   background-color: var(--ink);
 }
+
 .btn-solid:hover {
   background-color: transparent;
   color: var(--ink);
   transition: all var(--T);
 }
 
-.btn-outline{
+.btn-outline {
   font-family: 'DM Mono', monospace;
   font-size: .62rem;
   letter-spacing: .18em;
@@ -556,11 +558,13 @@ h2.big {
   padding: .55rem 1.4rem;
   text-decoration: none;
 }
+
 .btn-outline:hover {
   background-color: var(--ink);
   color: var(--bg);
   transition: all var(--T);
 }
+
 /* Hero right — architectural lineart */
 .hero-right {
   display: flex;
@@ -1141,8 +1145,9 @@ model-viewer {
   color: var(--bg);
   border: none;
   position: relative;
-  top:5rem
+  top: 5rem
 }
+
 #projectModal-1 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
@@ -1150,17 +1155,19 @@ model-viewer {
   color: var(--orange);
 
 }
-#projectModal-1 .btn-close{
+
+#projectModal-1 .btn-close {
   color: var(--bg);
   background-color: var(--orange);
 }
-#projectModal-1 .carousel-inner h5{
+
+#projectModal-1 .carousel-inner h5 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: .02em;
   color: var(--orange);
   /*efecto de sombra*/
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1169,8 +1176,9 @@ model-viewer {
   color: var(--bg);
   border: none;
   position: relative;
-  top:5rem
+  top: 5rem
 }
+
 #projectModal-2 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
@@ -1178,17 +1186,19 @@ model-viewer {
   color: var(--orange);
 
 }
-#projectModal-2 .btn-close{
+
+#projectModal-2 .btn-close {
   color: var(--bg);
   background-color: var(--orange);
 }
-#projectModal-2 .carousel-inner h5{
+
+#projectModal-2 .carousel-inner h5 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: .02em;
   color: var(--orange);
   /*efecto de sombra*/
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1197,8 +1207,9 @@ model-viewer {
   color: var(--bg);
   border: none;
   position: relative;
-  top:5rem
+  top: 5rem
 }
+
 #projectModal-3 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
@@ -1206,17 +1217,19 @@ model-viewer {
   color: var(--orange);
 
 }
-#projectModal-3 .btn-close{
+
+#projectModal-3 .btn-close {
   color: var(--bg);
   background-color: var(--orange);
 }
-#projectModal-3 .carousel-inner h5{
+
+#projectModal-3 .carousel-inner h5 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: .02em;
   color: var(--orange);
   /*efecto de sombra*/
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1225,8 +1238,9 @@ model-viewer {
   color: var(--bg);
   border: none;
   position: relative;
-  top:5rem
+  top: 5rem
 }
+
 #projectModal-4 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
@@ -1234,17 +1248,19 @@ model-viewer {
   color: var(--orange);
 
 }
-#projectModal-4 .btn-close{
+
+#projectModal-4 .btn-close {
   color: var(--bg);
   background-color: var(--orange);
 }
-#projectModal-4 .carousel-inner h5{
+
+#projectModal-4 .carousel-inner h5 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: .02em;
   color: var(--orange);
   /*efecto de sombra*/
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1253,8 +1269,9 @@ model-viewer {
   color: var(--bg);
   border: none;
   position: relative;
-  top:5rem
+  top: 5rem
 }
+
 #projectModal-5 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
@@ -1262,17 +1279,19 @@ model-viewer {
   color: var(--orange);
 
 }
-#projectModal-5 .btn-close{
+
+#projectModal-5 .btn-close {
   color: var(--bg);
   background-color: var(--orange);
 }
-#projectModal-5 .carousel-inner h5{
+
+#projectModal-5 .carousel-inner h5 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: .02em;
   color: var(--orange);
   /*efecto de sombra*/
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1281,8 +1300,9 @@ model-viewer {
   color: var(--bg);
   border: none;
   position: relative;
-  top:5rem
+  top: 5rem
 }
+
 #projectModal-6 .modal-title {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
@@ -1290,18 +1310,21 @@ model-viewer {
   color: var(--orange);
 
 }
-#projectModal-6 .btn-close{
+
+#projectModal-6 .btn-close {
   color: var(--bg);
   background-color: var(--orange);
 }
-#projectModal-6 .carousel-inner h5{
+
+#projectModal-6 .carousel-inner h5 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.2rem;
   letter-spacing: .02em;
   color: var(--orange);
   /*efecto de sombra*/
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
+
 /* ─── ABOUT ──────────────────────────────────── */
 #nosotros {
   background: var(--bg)
@@ -1733,6 +1756,158 @@ model-viewer {
   letter-spacing: .12em;
   text-transform: uppercase;
   color: var(--gray);
+}
+
+/* ─── RESPONSIVE TESTIMONIALS ────────────────── */
+@media (max-width: 1024px) {
+  .tst-card {
+    gap: 3rem;
+    padding: 3rem 0;
+  }
+
+  .tst-meta {
+    width: 35%;
+  }
+
+  .tst-text {
+    font-size: 1rem;
+  }
+
+  .tst-text::before {
+    font-size: 4rem;
+    top: -0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tst-card {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .tst-card .btn {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-top: 1rem;
+  }
+
+  .tst-meta {
+    width: 100%;
+    align-items: center;
+  }
+
+  .tst-name {
+    font-size: 1.4rem;
+  }
+
+  .tst-proj {
+    font-size: 0.5rem;
+  }
+
+  .tst-text {
+    font-size: 1rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .tst-text::before {
+    display: none;
+  }
+
+  .tst-nav {
+    justify-content: center;
+  }
+
+  .zones {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .zones-label {
+    font-size: 0.7rem;
+  }
+
+  .zones-list {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  /* Modal responsive */
+  .modal-dialog {
+    margin: 1rem;
+  }
+
+  .modal-body img {
+    height: auto !important;
+    max-height: 50vh;
+  }
+
+  .carousel-caption {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tst-card {
+    padding: 1.5rem 0;
+  }
+
+  .tst-meta {
+    width: 100%;
+  }
+
+  .tst-name {
+    font-size: 1.2rem;
+  }
+
+  .tst-text {
+    font-size: 0.9rem;
+  }
+
+  .tst-nav {
+    gap: 1rem;
+  }
+
+  .tst-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .tst-dots {
+    gap: 6px;
+  }
+
+  .tst-dot {
+    width: 20px;
+  }
+
+  .zones {
+    padding: 1.5rem;
+  }
+
+  /* Modal responsive */
+  .modal-dialog {
+    margin: 0.5rem;
+  }
+
+  .modal-body img {
+    height: auto !important;
+    max-height: 40vh;
+  }
+
+  .modal-title {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption {
+    font-size: 0.7rem;
+  }
 }
 
 /* ─── PRICING ────────────────────────────────── */
