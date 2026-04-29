@@ -149,11 +149,12 @@ ctForm.addEventListener('submit', e => {
   e.preventDefault();
   const nom = document.getElementById('cf-nom');
   const tel = document.getElementById('cf-tel');
+  const dni = document.getElementById('cf-dni');
   const proy = document.getElementById('cf-proy');
   const msg = document.getElementById('cf-msg');
-  const ok = vf(nom) & vf(tel) & vf(proy);
+  const ok = vf(nom) & vf(tel) & vf(dni) & vf(proy);
   if (!ok) return;
-  const text = `Hola, soy ${nom.value}. Mi teléfono es ${tel.value}. Proyecto: ${proy.value}. ${msg.value}`;
+  const text = `Hola, soy ${nom.value}. Mi teléfono es ${tel.value}. DNI: ${dni.value}. Proyecto: ${proy.value}. ${msg.value}`;
   ctForm.style.display = 'none';
   ctSuccess.classList.add('show');
   setTimeout(() => window.open(`https://wa.me/51972777696?text=${encodeURIComponent(text)}`, '_blank'), 800);
