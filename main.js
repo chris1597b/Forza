@@ -46,13 +46,13 @@ mnav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
 
 // ── Clip reveal (hero) ──────────────────────
 function initClips() {
-  const delays = { ey1: 300, ht1: 500, ht2: 650, ht3: 800, ht4: 950 };
+  const delays = { ey1: 100, ht1: 250, ht2: 350, ht3: 450, ht4: 550 };
   Object.entries(delays).forEach(([id, ms]) => {
     const el = document.getElementById(id);
     if (el) setTimeout(() => el.classList.add('up'), ms);
   });
 }
-window.addEventListener('load', initClips);
+window.addEventListener('DOMContentLoaded', initClips);
 
 // ── Intersection reveal ─────────────────────
 const io = new IntersectionObserver(entries => {

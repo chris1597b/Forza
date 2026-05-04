@@ -364,7 +364,7 @@ nav {
 
 .clip-inner {
   transform: translateY(110%);
-  transition: transform .8s cubic-bezier(.22, 1, .36, 1);
+  transition: transform .6s cubic-bezier(.22, 1, .36, 1);
 }
 
 .clip-inner.up {
